@@ -51,7 +51,7 @@ const Hero = () => {
         >
           <div className="w-48 h-48 rounded-full bg-gray-200 dark:bg-gray-700 mb-8 overflow-hidden">
             <img
-              src="./images/profile.png"
+              src="/NABBAR-s-Portfolio/images/profile.png"
               alt="Oussama NABBAR"
               className="w-full h-full object-cover"
             />
@@ -67,7 +67,7 @@ const Hero = () => {
             <span className="animate-blink">|</span>
           </div>
           <motion.a
-            href="./CV.pdf"
+            href="/NABBAR-s-Portfolio/CV.pdf"
             download
             className="inline-block bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition-colors duration-300"
             whileHover={{ scale: 1.05 }}

@@ -7,5 +7,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  base: './', // This ensures assets are loaded correctly in GitHub Pages
+  base: '/NABBAR-s-Portfolio/', // Match your GitHub Pages repository name
 });
