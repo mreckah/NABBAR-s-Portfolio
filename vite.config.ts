@@ -7,5 +7,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  base: process.env.VITE_BASE_PATH || '/NABBAR-s-Portfolio',
+  base: './', // This ensures assets are loaded correctly in GitHub Pages
 });
